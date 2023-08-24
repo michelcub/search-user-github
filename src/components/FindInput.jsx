@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form'
 
 export const FindInput = () => {
 
-    const {store, actions} = useAppContext()
+    const {actions} = useAppContext()
 
     const {register, handleSubmit} = useForm()
 
