@@ -5,24 +5,22 @@ import {useState, useEffect} from 'react';
 import useFetchUser from '../services/useFetchUser'
 
 
-interface userInput{
-    user: string
-}
+
 
 export const AppContext = createContext(null);
 
 
 export const AppProvider = ({children}) => {
 
-    const [data, setData] = useState();
-    const [isPending, setIsPending] = useState<boolean>(true);
-    const [error, setError] = useState();
+    const [data, setData] = useState(null);
+    const [isPending, setIsPending] = useState(true);
+    const [error, setError] = useState(null);
 
-    const [userInput, setUserInput] = useState<string>('')
+    const [userInput, setUserInput] = useState('')
 
 
     
-    const onSubmit = (dataForm: userInput) => {
+    const onSubmit = (dataForm) => {
         setUserInput(dataForm.user)
     }
 

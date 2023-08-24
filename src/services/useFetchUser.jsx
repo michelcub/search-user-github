@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 
 
-const useFetchUser = (user:string) => {
+const useFetchUser = (user) => {
     
     const [data, setData] = useState(null);
     const [isPending, setIsPending] = useState(true);
     const [error, setError] = useState(null);
 
-    const url: string = `https://api.github.com/users/${user}`;
-    const token: string = import.meta.env.VITE_GITHUB_TOKEN;
+    const url = `https://api.github.com/users/${user}`;
+    const token = import.meta.env.VITE_GITHUB_TOKEN;
     const Headers = {
         'Authorization': 'token ' + token,
     }
