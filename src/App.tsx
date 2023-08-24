@@ -1,11 +1,10 @@
-import { useState } from 'react'
 import { FindInput } from './components/FindInput'
 
 import useAppContext from './context/AppContext'
 import { UserDetails } from './components/UserDetails'
 
 function App() {
-  const {store, actions} = useAppContext()
+  const {store} = useAppContext()
  
 
   

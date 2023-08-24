@@ -14,9 +14,9 @@ export const AppContext = createContext(null);
 
 export const AppProvider = ({children}) => {
 
-    const [data, setData] = useState(null);
+    const [data, setData] = useState();
     const [isPending, setIsPending] = useState<boolean>(true);
-    const [error, setError] = useState(null);
+    const [error, setError] = useState();
 
     const [userInput, setUserInput] = useState<string>('')
 
