@@ -33,7 +33,7 @@ const useFetchUser = (user:string) => {
             setError(null)
         })
         }catch(err){
-            setError(err.message)
+            setError(err)
         }finally{
             setIsPending(false)
         }
