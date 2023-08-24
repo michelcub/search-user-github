@@ -2,7 +2,7 @@ import {ImLocation} from 'react-icons/im'
 import {BiLink} from 'react-icons/bi'
 import {BsBuildingsFill} from 'react-icons/bs'
 import {MdAttachEmail} from 'react-icons/md'
-import useAppContext from '../context/.jsx'
+import useAppContext from '../context/AppContext.jsx'
 
 export const UserDetails = () => {
 
