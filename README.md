@@ -1,8 +1,15 @@
 # React + Vite
+Buscador de usuarios GitHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Url -> https://search-user-github-ek7e.vercel.app/
 
-Currently, two official plugins are available:
+# Para correr el proyecto:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+*yarn -> instalar dependencias
+
+*yarn dev -> correr servidor en local
+
+--------------------------
+
+![Captura de pantalla 2023-08-24 231335](https://github.com/michelcub/search-user-github/assets/49735520/dacb0f3e-6e5f-4389-9717-cde5d677581e)
